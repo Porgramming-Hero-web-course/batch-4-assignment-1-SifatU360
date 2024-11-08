@@ -25,6 +25,7 @@ function printStatus(status: Status) {
 }
 
 // For test 
+
 printStatus("success"); // Output: "Operation was successful!"
 printStatus("error");   // Output: "There was an error with the operation."
 
@@ -53,7 +54,8 @@ type Address = {
     thana: string
 };
 
-// intersection type 
+// intersection type
+
 type NameAndAddress = Name & Address;
 
 function personInfo(person: NameAndAddress): void {
